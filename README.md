@@ -1,3 +1,2 @@
-# musicPlayer
-Qt/C++/refer kugouMusic
 # MusicPlayer
+Qt/C++/refer kugouMusic
