@@ -1,0 +1,33 @@
+QPushButton{
+    text-align: left;
+    font: 12px;
+    font-family: "黑体";
+    font-weight: bold;
+    padding-left: 4px;
+    border-top: 1px solid rgba(255, 255, 255, 10%);
+
+}
+
+QListView{
+    border: 0px;
+    color: white;
+    background: rgba(255,255,255,0);
+    outline: none;
+}
+
+QListView::item{
+    height: 32px;
+    font-size: 20px;
+}
+
+QListView::item:selected{
+    background: rgba(255,255,255,20%);
+}
+
+QListView::item:hover{
+    background: rgba(255,255,255,20%);
+}
+
+QListView::item:selected:!active{
+    color: white;
+}

@@ -1,0 +1,7 @@
+QPushButton{
+    background: transparent;
+    color: white;
+    font: 14px;
+    font-family: '楷体';
+    font-weight: 100;
+}

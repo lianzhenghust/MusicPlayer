@@ -1,0 +1,19 @@
+
+QPushButton{
+    background: transparent;
+    color: white;
+    font: 14px;
+    font-family: '楷体';
+    font-weight: 100;
+}
+
+QLineEdit{
+    border-radius: 12px;
+    padding-left: 8px;
+    background: #CCDBEA;
+
+}
+
+QLabel{
+    color: white;
+}

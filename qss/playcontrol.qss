@@ -1,0 +1,35 @@
+QPushButton{
+    background: transparent;
+    border-radius: 17px;
+}
+
+QLabel{
+    font-family: '黑体';
+    font-weight: bold;
+    font: 12px;
+    color: white;
+}
+
+QSlider{
+    border-color: #bcbcbc;
+}
+
+QSlider::groove:horizontal{
+    border: 1px solid #999999;
+    height: 1px;
+}
+
+QSlider::handle:horizontal{
+    border: 0px;
+    border-image:url(../MusicSoft/img/ruler1.png);
+    width: 10px;
+    margin: -5px -2px -5px -2px;
+}
+
+QSlider::add-page:horizontal{
+    background: #999999;
+}
+
+QSlider::sub-page:horizontal{
+    background: #FFFEA1;
+}

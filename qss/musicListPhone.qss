@@ -1,0 +1,12 @@
+QPushButton{
+    font: 20px;
+    font-family: "黑体";
+    color: white;
+    border-radius:4px;
+}
+
+QLabel{
+    font-family: "黑体";
+    font: 10px;
+    color: white;
+}
